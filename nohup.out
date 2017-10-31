@@ -1,0 +1,14 @@
+2017-10-28 04:31:42.779184: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-28 04:31:42.779230: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-28 04:31:42.779238: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-28 04:31:42.779243: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-28 04:31:42.779248: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-28 04:31:42.787596: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+2017-10-28 04:31:42.787644: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: ip-172-31-23-121
+2017-10-28 04:31:42.787654: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: ip-172-31-23-121
+2017-10-28 04:31:42.787723: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 384.90.0
+2017-10-28 04:31:42.787973: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:369] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  375.51  Wed Mar 22 10:26:12 PDT 2017
+GCC version:  gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+"""
+2017-10-28 04:31:42.787994: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 375.51.0
+2017-10-28 04:31:42.788001: E tensorflow/stream_executor/cuda/cuda_diagnostics.cc:303] kernel version 375.51.0 does not match DSO version 384.90.0 -- cannot find working devices in this configuration
